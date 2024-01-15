@@ -1,0 +1,7 @@
+NOT NULL - Ensures that a column have a NULL value
+UNIQUE - Ensures that all values in a column are different
+primary key - a combination of NOT NULL and UNIQUE, UNIQUEly identifies each row in a table_name
+FOREIGN key - prevents a ctions that would destroy links and between tables
+check - ensures that the values in a column satisfies a specific condition
+DEFAULT - sets a default value for a column if no value is specified
+create index - used the create a retrieve data from the databse very quickly
