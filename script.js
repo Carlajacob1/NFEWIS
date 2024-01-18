@@ -37,10 +37,10 @@ function toggleFormUsersDelete() {
   }
 }
 
-function toggleFormUsersCreate() {
-  var form = document.getElementById("UsersFormCreate");
-  var form1 = document.getElementById("UsersFormUpdate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormStudentCreate() {
+  var form = document.getElementById("StudentFormCreate");
+  var form1 = document.getElementById("StudentFormUpdate");
+  var form2 = document.getElementById("StudentFormDelete");
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -50,10 +50,10 @@ function toggleFormUsersCreate() {
   }
 }
 
-function toggleFormUsersUpdate() {
-  var form = document.getElementById("UsersFormUpdate");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormStudentUpdate() {
+  var form = document.getElementById("StudentFormUpdate");
+  var form1 = document.getElementById("StudentFormCreate");
+  var form2 = document.getElementById("StudentFormDelete");
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -63,10 +63,10 @@ function toggleFormUsersUpdate() {
   }
 }
 
-function toggleFormUsersDelete() {
-  var form = document.getElementById("UsersFormDelete");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormUpdate");
+function toggleFormStudentDelete() {
+  var form = document.getElementById("StudentFormDelete");
+  var form1 = document.getElementById("StudentFormCreate");
+  var form2 = document.getElementById("StudentFormUpdate");
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -76,10 +76,11 @@ function toggleFormUsersDelete() {
   }
 }
 
-function toggleFormUsersCreate() {
-  var form = document.getElementById("UsersFormCreate");
-  var form1 = document.getElementById("UsersFormUpdate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormCourseCreate() {
+  var form = document.getElementById("CourseFormCreate");
+  var form = document.getElementById("CourseFormUpdate");
+  var form = document.getElementById("CourseFormDelete");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -89,10 +90,11 @@ function toggleFormUsersCreate() {
   }
 }
 
-function toggleFormUsersUpdate() {
-  var form = document.getElementById("UsersFormUpdate");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormCourseUpdate() {
+  var form = document.getElementById("CourseFormUpdate");
+  var form = document.getElementById("CourseFormCreate");
+  var form = document.getElementById("CourseFormDelete");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -102,10 +104,11 @@ function toggleFormUsersUpdate() {
   }
 }
 
-function toggleFormUsersDelete() {
-  var form = document.getElementById("UsersFormDelete");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormUpdate");
+function toggleFormCourseDelete() {
+  var form = document.getElementById("CourseFormDelete");
+  var form = document.getElementById("CourseFormCreate");
+  var form = document.getElementById("CourseFormUpdate");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -115,10 +118,11 @@ function toggleFormUsersDelete() {
   }
 }
 
-function toggleFormUsersCreate() {
-  var form = document.getElementById("UsersFormCreate");
-  var form1 = document.getElementById("UsersFormUpdate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormInstructorCreate() {
+  var form = document.getElementById("InstructorFormCreate");
+  var form = document.getElementById("InstructorFormDelete");
+  var form = document.getElementById("InstructorFormUpdate");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -128,10 +132,11 @@ function toggleFormUsersCreate() {
   }
 }
 
-function toggleFormUsersUpdate() {
-  var form = document.getElementById("UsersFormUpdate");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormInstructorUpdate() {
+  var form = document.getElementById("InstructorFormUpdate");
+  var form = document.getElementById("InstructorFormCreate");
+  var form = document.getElementById("InstructorFormDelete");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -141,10 +146,11 @@ function toggleFormUsersUpdate() {
   }
 }
 
-function toggleFormUsersDelete() {
-  var form = document.getElementById("UsersFormDelete");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormUpdate");
+function toggleFormInstructorDelete() {
+  var form = document.getElementById("InstructorFormDelete");
+  var form = document.getElementById("InstructorFormCreate");
+  var form = document.getElementById("InstructorFormUpdate");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -154,10 +160,11 @@ function toggleFormUsersDelete() {
   }
 }
 
-function toggleFormUsersCreate() {
-  var form = document.getElementById("UsersFormCreate");
-  var form1 = document.getElementById("UsersFormUpdate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormEnrollmentCreate() {
+  var form = document.getElementById("EnrollmentFormCreate");
+  var form = document.getElementById("EnrollmentFormDelete");
+  var form = document.getElementById("EnrollmentFormUpdate");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -167,10 +174,11 @@ function toggleFormUsersCreate() {
   }
 }
 
-function toggleFormUsersUpdate() {
-  var form = document.getElementById("UsersFormUpdate");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormDelete");
+function toggleFormEnrollmentUpdate() {
+  var form = document.getElementById("EnrollmentFormUpdate");
+  var form = document.getElementById("EnrollmentFormCreate");
+  var form = document.getElementById("EnrollmentFormDelete");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
@@ -180,10 +188,11 @@ function toggleFormUsersUpdate() {
   }
 }
 
-function toggleFormUsersDelete() {
-  var form = document.getElementById("UsersFormDelete");
-  var form1 = document.getElementById("UsersFormCreate");
-  var form2 = document.getElementById("UsersFormUpdate");
+function toggleFormEnrollmentDelete() {
+  var form = document.getElementById("EnrollmentFormDelete");
+  var form = document.getElementById("EnrollmentFormCreate");
+  var form = document.getElementById("EnrollmentFormUpdate");
+
   if (form.style.display === "none") {
     form.style.display = "block";
     form1.style.display = "none";
